@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato — LBIA</title>
+  <meta name="description" content="Fale com a LBIA sobre o seu projeto de inteligência artificial, software ou consultoria em tecnologia.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%232b5d4f%22/><circle cx=%2216%22 cy=%228%22 r=%222.6%22 fill=%22%23f3f4ef%22/><circle cx=%229%22 cy=%2224%22 r=%222.6%22 fill=%22%23f3f4ef%22/><circle cx=%2223%22 cy=%2224%22 r=%222.6%22 fill=%22%23f3f4ef%22/><line x1=%2216%22 y1=%2211%22 x2=%2216%22 y2=%2219%22 stroke=%22%23f3f4ef%22 stroke-width=%222%22/><line x1=%2211%22 y1=%2222.5%22 x2=%2215%22 y2=%2219%22 stroke=%22%23f3f4ef%22 stroke-width=%222%22/><line x1=%2221%22 y1=%2222.5%22 x2=%2217%22 y2=%2219%22 stroke=%22%23f3f4ef%22 stroke-width=%222%22/></svg>">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
+
+  <!-- ===================== CABEÇALHO ===================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><em>LB</em>IA</a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Abrir menu de navegação">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="cases.html">Cases</a></li>
+          <li><a href="contato.html" class="nav-cta" aria-current="page">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo-principal">
+
+    <!-- ===================== CABEÇALHO DA PÁGINA ===================== -->
+    <section class="page-head container">
+      <h1>Vamos conversar sobre o seu projeto</h1>
+      <p class="lede">Conte um pouco sobre o problema que você quer
+        resolver. Respondemos em até 1 dia útil.</p>
+    </section>
+
+    <!-- ===================== FORMULÁRIO E INFORMAÇÕES ===================== -->
+    <section class="section">
+      <div class="container contact-layout">
+
+        <!-- Formulário de contato. Sem back-end nesta atividade: pronto
+             para ser conectado a um serviço de envio (ex.: e-mail próprio
+             ou uma API) quando o projeto sair do ambiente de estudo. -->
+        <form class="contact-form" method="post">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="empresa">Empresa <span class="hint">(opcional)</span></label>
+              <input type="text" id="empresa" name="empresa" autocomplete="organization">
+            </div>
+            <div class="form-field">
+              <label for="assunto">Assunto</label>
+              <select id="assunto" name="assunto" required>
+                <option value="">Selecione uma opção</option>
+                <option value="orcamento">Orçamento de projeto</option>
+                <option value="duvida">Dúvida sobre serviços</option>
+                <option value="suporte">Suporte a cliente atual</option>
+                <option value="outro">Outro assunto</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+          </div>
+
+          <div>
+            <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+          </div>
+        </form>
+
+        <!-- Informações de contato e localização -->
+        <div class="contact-info">
+          <address>
+            <div class="contact-info-item">
+              <svg width="20" height="20" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="4" y="8" width="24" height="17" rx="2"/>
+                <polyline points="4,9.5 16,19 28,9.5"/>
+              </svg>
+              <div>
+                <h3>E-mail</h3>
+                <p><a href="mailto:contato@LBIA.com.br">contato@LBIA.com.br</a></p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <svg width="20" height="20" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="10" y="4" width="12" height="24" rx="3"/>
+                <line x1="14" y1="24" x2="18" y2="24"/>
+              </svg>
+              <div>
+                <h3>Telefone</h3>
+                <p><a href="tel:+559540028922">(95) 4002-8922</a></p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <svg width="20" height="20" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="16" cy="12" r="7"/>
+                <polyline points="10,17 16,28 22,17"/>
+                <circle cx="16" cy="12" r="2.2" fill="currentColor" stroke="none"/>
+              </svg>
+              <div>
+                <h3>Endereço</h3>
+                <p>Av. Paulista, 1000 — São Paulo, SP</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <svg width="20" height="20" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="16" cy="16" r="11"/>
+                <line x1="16" y1="16" x2="16" y2="9"/>
+                <line x1="16" y1="16" x2="21" y2="18"/>
+              </svg>
+              <div>
+                <h3>Horário de atendimento</h3>
+                <p>Segunda a sexta, das 9h às 18h</p>
+              </div>
+            </div>
+          </address>
+
+          <div class="map-panel">
+            <p><strong>Av. Paulista, 1000 — São Paulo, SP</strong>
+              Atendemos também de forma 100% remota empresas em qualquer
+              lugar do Brasil.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== PERGUNTAS FREQUENTES ===================== -->
+    <section class="section section-tint">
+      <div class="container">
+        <div class="section-head">
+          <h2>Perguntas frequentes</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>Quanto tempo leva para desenvolver um projeto?</summary>
+            <p>Depende do escopo, mas a maioria dos projetos entrega a
+              primeira versão em produção entre 6 e 12 semanas, em ciclos
+              de duas semanas.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Vocês atendem empresas de qualquer porte?</summary>
+            <p>Trabalhamos principalmente com empresas de médio porte dos
+              setores de varejo, logística, saúde e educação — é onde
+              temos mais profundidade para entregar resultado rápido.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Como funciona a primeira reunião?</summary>
+            <p>É uma conversa de 30 minutos para entender o problema, sem
+              compromisso. Se fizer sentido, enviamos uma proposta com
+              escopo e prazo em até 3 dias úteis.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Quais tecnologias vocês utilizam?</summary>
+            <p>Variam conforme o projeto, mas trabalhamos com Python para
+              os modelos de IA e tecnologias web modernas para os
+              sistemas — sempre priorizando o que for mais fácil de manter
+              pela sua equipe no futuro.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="logo"><em>LB</em>IA</p>
+        <p>Sistemas de inteligência artificial e software sob medida para
+          empresas de varejo, logística, saúde e educação.</p>
+      </div>
+
+      <nav class="footer-col" aria-label="Links do rodapé">
+        <h2>Navegação</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="cases.html">Cases</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <h2>Contato</h2>
+        <address>
+          <span>Av. Paulista, 1000 — São Paulo, SP</span>
+          <a href="mailto:contato@LBIA.com.br">contato@LBIA.com.br</a>
+          <a href="tel:+559540028922">(95) 4002-8922</a>
+        </address>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; Portfólio I Programação para Web.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
